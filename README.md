@@ -27,17 +27,24 @@ jupyter notebook ,numpy,pandas,matplotlib
 ### 机器学习
 
 - knn
-  - [实现自己的knn](machinelearning/knn/01-kNNBasics/01-kNN-Basics.ipynb)
-  - [sklearn中的knn](machinelearning/knn/02-kNNInScikitLearn/02-kNN-in-scikit-learn.ipynb)
-  - [训练数据集和测试数据集拆分](machinelearning/knn/03-TrainTestSplit/03-TrainTestSplit.ipynb)
-  - [结果准确度](machinelearning/knn/04-AccuracyScore/04-AccuracyScore.ipynb)
-  - [超参数寻找](machinelearning/knn/05-HyperParameters/05-HyperParameters.ipynb)
-  - [网格搜索超参数](machinelearning/knn/06-GridSearch/06-GridSearch.ipynb)
-  - [数据归一化和标准化](machinelearning/knn/07-FeatureScaling/07-FeatureScaling.ipynb)
-  - [sklearn中的标准化](machinelearning/knn/08-ScalerinScikitLearn/08-Scaler-in-Scikit-Learn.ipynb)
-
+  - [knn理论、公式](machinelearning/01knn.md)  
+  - [实现自己的knn](machinelearning/knn/01-kNNBasics/kNNBasics.ipynb)
+  - [sklearn中的knn](machinelearning/knn/02-kNNInScikitLearn/kNNinScikitlearn.ipynb)
+  - [训练数据集和测试数据集拆分](machinelearning/knn/03-TrainTestSplit/TrainTestSplit.ipynb)
+  - [结果准确度](machinelearning/knn/04-AccuracyScore/AccuracyScore.ipynb)
+  - [超参数寻找](machinelearning/knn/05-HyperParameters/HyperParameters.ipynb)
+  - [网格搜索超参数](machinelearning/knn/06-GridSearch/GridSearch.ipynb)
+  - [数据归一化和标准化](machinelearning/knn/07-FeatureScaling/FeatureScaling.ipynb)
+  - [sklearn中的标准化](machinelearning/knn/08-ScalerinScikitLearn/ScalerInScikitLearn.ipynb)
+  
 - 线性回归
-
+  - [线性回归理论、公式](machinelearning/02线性回归.md)
+  - [简单线性回归实现](machinelearning/linearRegression/01-SimpleLinearRegressionImplementation/SimpleLinearRegressionImplementation.ipynb)
+  - [向量化运算效率高](machinelearning/linearRegression/02-Vectorization/Vectorization.ipynb)
+  - [衡量回归算法的标准，MSE、MAE](machinelearning/linearRegression/03-RegressionMetricsMSE-vs-MAE/RegressionMetricsMSE-vs-MAE.ipynb)
+  - [最好的衡量线性回归法的指标：R Squared ](machinelearning/linearRegression/04-R-Squared/R-Squared.ipynb)
+  - [正规方程法实现多元线性回归](machinelearning/linearRegression/05-OurLinearRegression/OurLinearRegression.ipynb)
+  - [sklearn中解决线性回归](machinelearning/linearRegression/06-RegressionInScikitLlearn/RegressionInScikitlearn.ipynb)
 
 
 

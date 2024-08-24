@@ -50,3 +50,4 @@ s = np.std(x)
 x_scale= (x - x_mean) / s
 ```
 
+
