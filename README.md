@@ -28,10 +28,13 @@ jupyter notebook ,numpy,pandas,matplotlib
 
 - knn
   - [实现自己的knn](machinelearning/knn/01-kNNBasics/01-kNN-Basics.ipynb)
-  - [sk-learn中的knn](machinelearning/knn/02-kNNInScikitLearn/02-kNN-in-scikit-learn.ipynb)
-  
-
-
+  - [sklearn中的knn](machinelearning/knn/02-kNNInScikitLearn/02-kNN-in-scikit-learn.ipynb)
+  - [训练数据集和测试数据集拆分](machinelearning/knn/03-TrainTestSplit/03-TrainTestSplit.ipynb)
+  - [结果准确度](machinelearning/knn/04-AccuracyScore/04-AccuracyScore.ipynb)
+  - [超参数寻找](machinelearning/knn/05-HyperParameters/05-HyperParameters.ipynb)
+  - [网格搜索超参数](machinelearning/knn/06-GridSearch/06-GridSearch.ipynb)
+  - [数据归一化和标准化](machinelearning/knn/07-FeatureScaling/07-FeatureScaling.ipynb)
+  - [sklearn中的标准化](machinelearning/knn/08-ScalerinScikitLearn/08-Scaler-in-Scikit-Learn.ipynb)
 
 - 线性回归
 
@@ -40,9 +43,9 @@ jupyter notebook ,numpy,pandas,matplotlib
 
 
 
-
-## links 
-- [基于 Python 的数据分析与可视化](https://juejin.cn/book/7240731597035864121)
+## links
+- [基于Python的数据分析与可视化](https://juejin.cn/book/7240731597035864121)
+- [sklearn官网](https://scikit-learn.org/stable/index.html)
 - [Python3入门机器学习 经典算法与应用](https://coding.imooc.com/class/chapter/169.html)
 
 
