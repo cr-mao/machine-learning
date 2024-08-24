@@ -1,5 +1,6 @@
 ## ai相关学习笔记
 
+
 ### 数学基础
 
 - [高等数学](math/高等数学.md)
@@ -20,16 +21,29 @@ jupyter notebook ,numpy,pandas,matplotlib
 - [numpy统计运算](datahandling/06-NumpyAggregationOperator/06-AggregationOperator.ipynb)
 - [numpy排序找索引操作](datahandling/07-NumpyArgAndSortOperation/07-ArgAndSortOperation.ipynb)
 - [numpy比较和神奇索引](datahandling/08-ComparisonAndFancyIndexing/08-ComparisonAndFancyIndexing.ipynb)
+- [pandas中的数据结构](datahandling/20-PandasDataFrameSeriesPanel/pandasDataFrameSeriesPanel.ipynb)
 
 
 ### 机器学习
 
 - knn
+  - [实现自己的knn](machinelearning/knn/01-kNNBasics/01-kNN-Basics.ipynb)
+  - [sk-learn中的knn](machinelearning/knn/02-kNNInScikitLearn/02-kNN-in-scikit-learn.ipynb)
+  
+
+
+
 - 线性回归
 
 
 
 
+
+
+
+## links 
+- [基于 Python 的数据分析与可视化](https://juejin.cn/book/7240731597035864121)
+- [Python3入门机器学习 经典算法与应用](https://coding.imooc.com/class/chapter/169.html)
 
 
 
