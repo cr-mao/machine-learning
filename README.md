@@ -1,4 +1,6 @@
-## ai相关学习笔记
+## 我的ai相关学习笔记
+
+每个知识点都按步骤有序记录下来，并尽可能的在notebook中写全代码注释，以及在markdown文档中记录算法推导过程。
 
 
 ### 数学基础
@@ -48,7 +50,7 @@ jupyter notebook ,numpy,pandas,matplotlib
 - 梯度下降法
   - [模拟实现梯度下降法(单变量)](machinelearning/gradientDescent/01-GradientDescentSimulations/01-GradientDescentSimulations.ipynb)
   - [在线性回归中实现梯度下降法](machinelearning/gradientDescent/02-ImplementGradientDescentInLinearRegression/02-ImplementGradientDescentInLinearRegression.ipynb)
-
+  - [梯度下降向量化公式及性能和正规方程对比](machinelearning/gradientDescent/03-VectorizeGradientDescent/03-VectorizeGradientDescent.ipynb)
 
 
 

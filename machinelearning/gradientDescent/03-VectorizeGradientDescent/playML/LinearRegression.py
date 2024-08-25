@@ -34,6 +34,7 @@ class LinearRegression:
                 return float('inf')
             
         def dJ(theta, X_b, y):
+            # 向量化公式
             return X_b.T.dot(X_b.dot(theta) - y) * 2. / len(y)
 
         def gradient_descent(X_b, y, initial_theta, eta, n_iters=1e4, epsilon=1e-8):
