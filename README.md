@@ -37,7 +37,7 @@ jupyter notebook ,numpy,pandas,matplotlib
   - [数据归一化和标准化](machinelearning/knn/07-FeatureScaling/FeatureScaling.ipynb)
   - [sklearn中的标准化](machinelearning/knn/08-ScalerinScikitLearn/ScalerInScikitLearn.ipynb)
   
-- 线性回归
+- 线性回归法
   - [线性回归理论、公式](machinelearning/02线性回归.md)
   - [简单线性回归实现](machinelearning/linearRegression/01-SimpleLinearRegressionImplementation/SimpleLinearRegressionImplementation.ipynb)
   - [向量化运算效率高](machinelearning/linearRegression/02-Vectorization/Vectorization.ipynb)
@@ -45,7 +45,9 @@ jupyter notebook ,numpy,pandas,matplotlib
   - [最好的衡量线性回归法的指标：R Squared ](machinelearning/linearRegression/04-R-Squared/R-Squared.ipynb)
   - [正规方程法实现多元线性回归](machinelearning/linearRegression/05-OurLinearRegression/OurLinearRegression.ipynb)
   - [sklearn中解决线性回归](machinelearning/linearRegression/06-RegressionInScikitLlearn/RegressionInScikitlearn.ipynb)
-
+- 梯度下降法
+  - [模拟实现梯度下降法(单变量)](machinelearning/gradientDescent/01-GradientDescentSimulations/01-GradientDescentSimulations.ipynb)
+  - [在线性回归中实现梯度下降法](machinelearning/gradientDescent/02-ImplementGradientDescentInLinearRegression/02-ImplementGradientDescentInLinearRegression.ipynb)
 
 
 
