@@ -24,6 +24,8 @@ jupyter notebook ,numpy,pandas,matplotlib
 - [numpy排序找索引操作](datahandling/07-NumpyArgAndSortOperation/07-ArgAndSortOperation.ipynb)
 - [numpy比较和神奇索引](datahandling/08-ComparisonAndFancyIndexing/08-ComparisonAndFancyIndexing.ipynb)
 - [pandas中的数据结构](datahandling/20-PandasDataFrameSeriesPanel/pandasDataFrameSeriesPanel.ipynb)
+- [Series创建、属性、计算](datahandling/21-SeriesBasic/seriesBasic.ipynb)
+- [Series的索引与基本操作](datahandling/22-SerieIndexAndOperation/22-seriesIndexAndOperation.ipynb)
 
 
 ### 机器学习
@@ -48,10 +50,11 @@ jupyter notebook ,numpy,pandas,matplotlib
   - [正规方程法实现多元线性回归](machinelearning/linearRegression/05-OurLinearRegression/OurLinearRegression.ipynb)
   - [sklearn中解决线性回归](machinelearning/linearRegression/06-RegressionInScikitLlearn/RegressionInScikitlearn.ipynb)
 - 梯度下降法
+  - [梯度下降法理论、公式](machinelearning/03梯度下降法.md)
   - [模拟实现梯度下降法(单变量)](machinelearning/gradientDescent/01-GradientDescentSimulations/01-GradientDescentSimulations.ipynb)
   - [在线性回归中实现梯度下降法](machinelearning/gradientDescent/02-ImplementGradientDescentInLinearRegression/02-ImplementGradientDescentInLinearRegression.ipynb)
   - [梯度下降向量化公式及性能和正规方程对比](machinelearning/gradientDescent/03-VectorizeGradientDescent/03-VectorizeGradientDescent.ipynb)
-  - [随机梯队下降法](machinelearning/gradientDescent/04-StochasticGradientDescent/04-StochasticGradientDescent.ipynb)
+  - [随机梯度下降法](machinelearning/gradientDescent/04-StochasticGradientDescent/04-StochasticGradientDescent.ipynb)
 
 
 
@@ -59,6 +62,11 @@ jupyter notebook ,numpy,pandas,matplotlib
 - [基于Python的数据分析与可视化](https://juejin.cn/book/7240731597035864121)
 - [sklearn官网](https://scikit-learn.org/stable/index.html)
 - [Python3入门机器学习 经典算法与应用](https://coding.imooc.com/class/chapter/169.html)
+- 书籍
+  - 机器学习(公式推导与代码实现)
+  - 从零开始机器学习的数学原理和算法实践
+  - 跟着迪哥学python数据分析与机器学习实战
+
 
 
 
