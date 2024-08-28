@@ -1,7 +1,8 @@
 ## 我的ai相关学习笔记
 
-每个知识点都按步骤有序记录下来，并尽可能的在notebook中写全代码注释，以及在markdown文档中记录算法推导过程。
-
+- ai相关数学知识
+- 数据分析与可视化
+- 机器学习
 
 ### 数学基础
 
@@ -26,6 +27,10 @@ jupyter notebook ,numpy,pandas,matplotlib
 - [pandas中的数据结构](datahandling/20-PandasDataFrameSeriesPanel/pandasDataFrameSeriesPanel.ipynb)
 - [Series创建、属性、计算](datahandling/21-SeriesBasic/seriesBasic.ipynb)
 - [Series的索引与基本操作](datahandling/22-SerieIndexAndOperation/22-seriesIndexAndOperation.ipynb)
+- pandas
+  - [dataframe创建、基本属性与索引切片](datahandling/23-PandasDataframeBasic/dataframeBasic.ipynb)
+  - [dataframe中的方法与索引技巧]
+
 
 
 ### 机器学习
@@ -40,7 +45,6 @@ jupyter notebook ,numpy,pandas,matplotlib
   - [网格搜索超参数](machinelearning/knn/06-GridSearch/GridSearch.ipynb)
   - [数据归一化和标准化](machinelearning/knn/07-FeatureScaling/FeatureScaling.ipynb)
   - [sklearn中的标准化](machinelearning/knn/08-ScalerinScikitLearn/ScalerInScikitLearn.ipynb)
-  
 - 线性回归法
   - [线性回归理论、公式](machinelearning/02线性回归.md)
   - [简单线性回归实现](machinelearning/linearRegression/01-SimpleLinearRegressionImplementation/SimpleLinearRegressionImplementation.ipynb)
@@ -55,17 +59,18 @@ jupyter notebook ,numpy,pandas,matplotlib
   - [在线性回归中实现梯度下降法](machinelearning/gradientDescent/02-ImplementGradientDescentInLinearRegression/02-ImplementGradientDescentInLinearRegression.ipynb)
   - [梯度下降向量化公式及性能和正规方程对比](machinelearning/gradientDescent/03-VectorizeGradientDescent/03-VectorizeGradientDescent.ipynb)
   - [随机梯度下降法](machinelearning/gradientDescent/04-StochasticGradientDescent/04-StochasticGradientDescent.ipynb)
-
-
+  - [sklearn中的随机梯度下降法](machinelearning/gradientDescent/05-SGDInScikitLearn/SGDInScikitLearn.ipynb)
+- 逻辑回归
+  - [逻辑回归理论、公式](machinelearning/04逻辑回归.md)
 
 ## links
 - [基于Python的数据分析与可视化](https://juejin.cn/book/7240731597035864121)
 - [sklearn官网](https://scikit-learn.org/stable/index.html)
 - [Python3入门机器学习 经典算法与应用](https://coding.imooc.com/class/chapter/169.html)
+- [matplotlib中文网](https://www.matplotlib.org.cn/)
 - 书籍
   - 机器学习(公式推导与代码实现)
   - 从零开始机器学习的数学原理和算法实践
-  - 跟着迪哥学python数据分析与机器学习实战
 
 
 

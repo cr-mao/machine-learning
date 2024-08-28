@@ -22,6 +22,7 @@ class LinearRegression:
 
         return self
 
+    # 全量梯度下降法
     def fit_bgd(self, X_train, y_train, eta=0.01, n_iters=1e4):
         """根据训练数据集X_train, y_train, 使用梯度下降法训练Linear Regression模型"""
         assert X_train.shape[0] == y_train.shape[0], \
@@ -33,6 +34,7 @@ class LinearRegression:
             except:
                 return float('inf')
 
+        # 线性回归梯度下降 梯度率公式
         def dJ(theta, X_b, y):
             return X_b.T.dot(X_b.dot(theta) - y) * 2. / len(y)
 
@@ -61,12 +63,14 @@ class LinearRegression:
 
         return self
 
+    # 随机梯度下降
+    # n_iters  默认循环５０次 全部样本
     def fit_sgd(self, X_train, y_train, n_iters=50, t0=5, t1=50):
         """根据训练数据集X_train, y_train, 使用梯度下降法训练Linear Regression模型"""
         assert X_train.shape[0] == y_train.shape[0], \
             "the size of X_train must be equal to the size of y_train"
         assert n_iters >= 1
-
+        # 随机梯度下降，梯度公式
         def dJ_sgd(theta, X_b_i, y_i):
             return X_b_i * (X_b_i.dot(theta) - y_i) * 2.
 
@@ -77,8 +81,11 @@ class LinearRegression:
 
             theta = initial_theta
             m = len(X_b)
+
             for i_iter in range(n_iters):
+                # 打乱
                 indexes = np.random.permutation(m)
+                # 根据索引下标取 全量打乱的 X_b_new
                 X_b_new = X_b[indexes,:]
                 y_new = y[indexes]
                 for i in range(m):
@@ -86,7 +93,7 @@ class LinearRegression:
                     theta = theta - learning_rate(i_iter * m + i) * gradient
 
             return theta
-
+        # 填充 １ ，给截距用
         X_b = np.hstack([np.ones((len(X_train), 1)), X_train])
         initial_theta = np.random.randn(X_b.shape[1])
         self._theta = sgd(X_b, y_train, initial_theta, n_iters, t0, t1)
