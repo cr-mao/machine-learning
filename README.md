@@ -29,7 +29,8 @@ jupyter notebook ,numpy,pandas,matplotlib
 - [Series的索引与基本操作](datahandling/22-SerieIndexAndOperation/22-seriesIndexAndOperation.ipynb)
 - pandas
   - [dataframe创建、基本属性与索引切片](datahandling/23-PandasDataframeBasic/dataframeBasic.ipynb)
-  - [dataframe中的方法与索引技巧]
+  - [dataframe中的方法与索引技巧](datahandling/24-PandasDataframeMethodAndIndex/dataframeMethodAndIndex.ipynb)
+  - [dataframe统计运算和逻辑运算](datahandling/25-PandasDataframeStatAndLogic/dataframeStatAndLogic.ipynb)
 
 
 
