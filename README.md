@@ -1,15 +1,15 @@
-## 我的ai相关学习笔记
+# 我的ai相关学习笔记
 
 - ai相关数学知识
 - 数据分析与可视化
 - 机器学习
 
-### 数学基础
+## 数学基础
 
 - [高等数学](math/高等数学.md)
 - [线性代数](math/线性代数.md)
 
-### 数据分析与可视化
+## 数据分析与可视化
 
 jupyter notebook ,numpy,pandas,matplotlib
 
@@ -34,7 +34,7 @@ jupyter notebook ,numpy,pandas,matplotlib
 
 
 
-### 机器学习
+## 机器学习
 
 - knn
   - [knn理论、公式](machinelearning/01knn.md)  
@@ -54,6 +54,9 @@ jupyter notebook ,numpy,pandas,matplotlib
   - [最好的衡量线性回归法的指标：R Squared ](machinelearning/linearRegression/04-R-Squared/R-Squared.ipynb)
   - [正规方程法实现多元线性回归](machinelearning/linearRegression/05-OurLinearRegression/OurLinearRegression.ipynb)
   - [sklearn中解决线性回归](machinelearning/linearRegression/06-RegressionInScikitLlearn/RegressionInScikitlearn.ipynb)
+  - [模拟欠拟合与过拟合、正则化处理](machinelearning/linearRegression/08-UnderfittingAndOverfitting/underfittingAndOverfitting.ipynb)
+  
+
 - 梯度下降法
   - [梯度下降法理论、公式](machinelearning/03梯度下降法.md)
   - [模拟实现梯度下降法(单变量)](machinelearning/gradientDescent/01-GradientDescentSimulations/01-GradientDescentSimulations.ipynb)
@@ -63,6 +66,18 @@ jupyter notebook ,numpy,pandas,matplotlib
   - [sklearn中的随机梯度下降法](machinelearning/gradientDescent/05-SGDInScikitLearn/SGDInScikitLearn.ipynb)
 - 逻辑回归
   - [逻辑回归理论、公式](machinelearning/04逻辑回归.md)
+
+
+
+### 案例
+
+#### 推荐系统相关
+
+- [推荐系统快速入门](machinelearning/推荐系统入门.md)
+- [用户口味、余弦相似性](machinelearning/recommand/01consine_simiartiy/consine_similarty.ipynb)
+- [用户消费能力、标准化欧式距离](machinelearning/recommand/02distance/distance.ipynb)
+- [NearestNeighbors、余弦相似性找出最相似的用户](machinelearning/recommand/03NearestNeighborsAndConsineSimiarity/NearestNeighbors_and_consine_simiarity.ipynb)
+
 
 ## links
 - [基于Python的数据分析与可视化](https://juejin.cn/book/7240731597035864121)
