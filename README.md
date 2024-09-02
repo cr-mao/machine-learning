@@ -8,6 +8,7 @@
 
 - [高等数学](math/高等数学.md)
 - [线性代数](math/线性代数.md)
+- [概率统计](math/概率统计.md)
 
 ## 数据分析与可视化
 
@@ -67,6 +68,8 @@ jupyter notebook ,numpy,pandas,matplotlib
 - 逻辑回归
   - [逻辑回归理论、公式](machinelearning/04逻辑回归.md)
 
+- 朴素叶贝斯
+  
 
 
 ### 案例
@@ -82,11 +85,11 @@ jupyter notebook ,numpy,pandas,matplotlib
 ## links
 - [基于Python的数据分析与可视化](https://juejin.cn/book/7240731597035864121)
 - [sklearn官网](https://scikit-learn.org/stable/index.html)
-- [Python3入门机器学习 经典算法与应用](https://coding.imooc.com/class/chapter/169.html)
 - [matplotlib中文网](https://www.matplotlib.org.cn/)
 - 书籍
   - 机器学习(公式推导与代码实现)
   - 从零开始机器学习的数学原理和算法实践
+  - 高等数学第6版上下册
 
 
 
