@@ -32,6 +32,10 @@ jupyter notebook ,numpy,pandas,matplotlib
   - [dataframe创建、基本属性与索引切片](datahandling/23-PandasDataframeBasic/dataframeBasic.ipynb)
   - [dataframe中的方法与索引技巧](datahandling/24-PandasDataframeMethodAndIndex/dataframeMethodAndIndex.ipynb)
   - [dataframe统计运算和逻辑运算](datahandling/25-PandasDataframeStatAndLogic/dataframeStatAndLogic.ipynb)
+  - [dataframe数据计算](datahandling/26-PandasDataframeCompute/dataframe_compute.ipynb)
+  - [时间序列](datahandling/27-PandasTime/pandas_time.ipynb)
+  - [io的读取和存储、缺失值处理、离散化处理](datahandling/28-PandasIoAndNanAndDiscrete/pandasIoNan.ipynb)
+
 
 
 
