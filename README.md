@@ -87,13 +87,13 @@ jupyter notebook ,numpy,pandas,matplotlib
 
 
 ## links
-- [基于Python的数据分析与可视化](https://juejin.cn/book/7240731597035864121)
-- [sklearn官网](https://scikit-learn.org/stable/index.html)
-- [matplotlib中文网](https://www.matplotlib.org.cn/)
-- 书籍
-  - 机器学习(公式推导与代码实现)
-  - 从零开始机器学习的数学原理和算法实践
-  - 高等数学第6版上下册
+
+- 机器学习(公式推导与代码实现)
+- 从零开始机器学习的数学原理和算法实践
+- 高等数学第6版上下册
+- 基于Python的数据分析与可视化
+- 重学线性代数
+  
 
 
 
