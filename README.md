@@ -15,6 +15,7 @@
 jupyter notebook ,numpy,pandas,matplotlib
 
 - [开发环境](datahandling/docs/开发环境.md)
+- [数据领域中的专业术语](datahandling/数据领域中的专业术语.md)
 - [numpy数据基础](datahandling/01-NumpyArrayBasics/01-NumpyArrayBasics.ipynb)
 - [numpy数组创建](datahandling/02-NumpyCreateArray/02CreateNumpyArray.ipynb)
 - [numpy数组基本操作](datahandling/03-NumpyArrayBasicOperations/03-NumpyArrayBasicOperations.ipynb)
