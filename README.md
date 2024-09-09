@@ -3,6 +3,7 @@
 - ai相关数学知识
 - 数据分析与可视化
 - 机器学习
+- python
 
 ## 数学基础
 
@@ -10,7 +11,7 @@
 - [线性代数](math/线性代数.md)
 - [概率统计](math/概率统计.md)
 
-## 数据分析与可视化
+## 数据处理分析与可视化
 
 jupyter notebook ,numpy,pandas,matplotlib
 
@@ -43,7 +44,7 @@ jupyter notebook ,numpy,pandas,matplotlib
 ## 机器学习
 
 - knn
-    - [knn理论、公式](machinelearning/01knn.md)
+    - [knn理论、公式](machinelearning/knn.md)
     - [实现自己的knn](machinelearning/knn/01-kNNBasics/kNNBasics.ipynb)
     - [sklearn中的knn](machinelearning/knn/02-kNNInScikitLearn/kNNinScikitlearn.ipynb)
     - [训练数据集和测试数据集拆分](machinelearning/knn/03-TrainTestSplit/TrainTestSplit.ipynb)
@@ -51,9 +52,9 @@ jupyter notebook ,numpy,pandas,matplotlib
     - [超参数寻找](machinelearning/knn/05-HyperParameters/HyperParameters.ipynb)
     - [网格搜索超参数](machinelearning/knn/06-GridSearch/GridSearch.ipynb)
     - [数据归一化和标准化](machinelearning/knn/07-FeatureScaling/FeatureScaling.ipynb)
-    - [sklearn中的标准化](machinelearning/knn/08-ScalerinScikitLearn/ScalerInScikitLearn.ipynb)
+    - [sklearn中的标准化](machinelearning/knn/08-ScalerinScikitLearn/ScalerInScikitLearn.ipyn)
 - 线性回归法
-    - [线性回归理论、公式](machinelearning/02线性回归.md)
+    - [线性回归理论、公式](machinelearning/线性回归.md)
     - [简单线性回归实现](machinelearning/linearRegression/01-SimpleLinearRegressionImplementation/SimpleLinearRegressionImplementation.ipynb)
     - [向量化运算效率高](machinelearning/linearRegression/02-Vectorization/Vectorization.ipynb)
     - [衡量回归算法的标准，MSE、MAE](machinelearning/linearRegression/03-RegressionMetricsMSE-vs-MAE/RegressionMetricsMSE-vs-MAE.ipynb)
@@ -63,16 +64,25 @@ jupyter notebook ,numpy,pandas,matplotlib
     - [模拟欠拟合与过拟合、正则化处理](machinelearning/linearRegression/08-UnderfittingAndOverfitting/underfittingAndOverfitting.ipynb)
 
 - 梯度下降法
-    - [梯度下降法理论、公式](machinelearning/03梯度下降法.md)
+    - [梯度下降法理论、公式](machinelearning/梯度下降法.md)
     - [模拟实现梯度下降法(单变量)](machinelearning/gradientDescent/01-GradientDescentSimulations/01-GradientDescentSimulations.ipynb)
     - [在线性回归中实现梯度下降法](machinelearning/gradientDescent/02-ImplementGradientDescentInLinearRegression/02-ImplementGradientDescentInLinearRegression.ipynb)
     - [梯度下降向量化公式及性能和正规方程对比](machinelearning/gradientDescent/03-VectorizeGradientDescent/03-VectorizeGradientDescent.ipynb)
     - [随机梯度下降法](machinelearning/gradientDescent/04-StochasticGradientDescent/04-StochasticGradientDescent.ipynb)
     - [sklearn中的随机梯度下降法](machinelearning/gradientDescent/05-SGDInScikitLearn/SGDInScikitLearn.ipynb)
+    - [关于梯度的计算调试](machinelearning/gradientDescent/06-DebugGradient/DebugGradient.ipynb)
+- 多项式回归与模型泛化
+  - [什么是多项式回归](machinelearning/polynomialRegressionAndModelGeneralization/01-whatIsPolynomialRegression/whatIsPolynomialRegression.ipynb)
+  - [scikit-learn中的多项式回归和Pipeline](machinelearning/polynomialRegressionAndModelGeneralization/02-PolynomialRegressionInScikitLearn/polynomialRegressionInScikitLearn.ipynb)
+  - [过拟合与欠拟合](machinelearning/polynomialRegressionAndModelGeneralization/03-OverfittingAndUnderfitting/overfittingAndUnderfitting.ipynb)
+  - [为什么使用测试数据集](machinelearning/polynomialRegressionAndModelGeneralization/04-WhyTrainTestSplit/WhyTrainTestSplit.ipynb)
+  - [学习曲线](machinelearning/polynomialRegressionAndModelGeneralization/05-LearningCurve/LearningCurve.ipynb)
 - PCA
-  - [PCA理论、公式](machinelearning/PCA.md)
+  - [PCA理论、公式](machinelearning/PCA与梯度上升法.md)
+  - [使用梯度上升法实现PCA](machinelearning/pcaAndGradientAscent/01-Implement-PCA-in-BGA/Implement-PCA-in-BGA.ipynb)
+  
 - 逻辑回归
-    - [逻辑回归理论、公式](machinelearning/04逻辑回归.md)
+    - [逻辑回归理论、公式](machinelearning/逻辑回归.md)
 
 - 朴素叶贝斯
 
@@ -90,8 +100,9 @@ jupyter notebook ,numpy,pandas,matplotlib
 - 机器学习(公式推导与代码实现)
 - 从零开始机器学习的数学原理和算法实践
 - 高等数学第6版上下册
-- 基于Python的数据分析与可视化
-- 重学线性代数
+- 基于Python的数据分析与可视化-掘金小册
+- 重学线性代数-极客时间
+- Python核心技术与实战-极客时间
   
 
 
