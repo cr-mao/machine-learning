@@ -77,6 +77,9 @@ jupyter notebook ,numpy,pandas,matplotlib
   - [过拟合与欠拟合](machinelearning/polynomialRegressionAndModelGeneralization/03-OverfittingAndUnderfitting/overfittingAndUnderfitting.ipynb)
   - [为什么使用测试数据集](machinelearning/polynomialRegressionAndModelGeneralization/04-WhyTrainTestSplit/WhyTrainTestSplit.ipynb)
   - [学习曲线](machinelearning/polynomialRegressionAndModelGeneralization/05-LearningCurve/LearningCurve.ipynb)
+  - [k折交叉验证](machinelearning/polynomialRegressionAndModelGeneralization/06-ValidationAndCrossValidation/validationAndCrossValidation.ipynb)
+  - [岭回归](machinelearning/polynomialRegressionAndModelGeneralization/08-ModelRegularizationAndRidgeRegression/modelRegularizationAndRidgeRegression.ipynb)
+  - [LASSO回归](machinelearning/polynomialRegressionAndModelGeneralization/09-LASSORegression/LASSO-Regression.ipynb)
 - PCA
   - [PCA理论、公式](machinelearning/PCA与梯度上升法.md)
   - [使用梯度上升法实现PCA](machinelearning/pcaAndGradientAscent/01-Implement-PCA-in-BGA/Implement-PCA-in-BGA.ipynb)
@@ -97,13 +100,13 @@ jupyter notebook ,numpy,pandas,matplotlib
 
 ## links
 
-- 机器学习(公式推导与代码实现)
-- 从零开始机器学习的数学原理和算法实践
-- 高等数学第6版上下册
+- 高等数学第6版上册
 - 基于Python的数据分析与可视化-掘金小册
 - 重学线性代数-极客时间
 - Python核心技术与实战-极客时间
-  
+- 数据分析实战45讲-极客时间
+- 机器学习(公式推导与代码实现)
+- 从零开始机器学习的数学原理和算法实践
 
 
 
