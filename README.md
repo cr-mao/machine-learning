@@ -86,6 +86,8 @@ jupyter notebook ,numpy,pandas,matplotlib
   
 - 逻辑回归
     - [逻辑回归理论、公式](machinelearning/逻辑回归.md)
+    - [sigmod函数](machinelearning/logisticRegression/01-WhatIsLogisticRegression/01-What-is-Logistic-Regression.ipynb)
+    - [实现逻辑回归](machinelearning/logisticRegression/02-ImplementLogisticRegression/implementLogisticRegression.ipynb)
 
 - 朴素叶贝斯
 

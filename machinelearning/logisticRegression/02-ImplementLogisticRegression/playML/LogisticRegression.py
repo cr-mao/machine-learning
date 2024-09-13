@@ -17,6 +17,7 @@ class LogisticRegression:
         assert X_train.shape[0] == y_train.shape[0], \
             "the size of X_train must be equal to the size of y_train"
 
+        # 损失值
         def J(theta, X_b, y):
             y_hat = self._sigmoid(X_b.dot(theta))
             try:
@@ -24,9 +25,11 @@ class LogisticRegression:
             except:
                 return float('inf')
 
+        # 梯度
         def dJ(theta, X_b, y):
             return X_b.T.dot(self._sigmoid(X_b.dot(theta)) - y) / len(y)
 
+        # 梯度下降法
         def gradient_descent(X_b, y, initial_theta, eta, n_iters=1e4, epsilon=1e-8):
 
             theta = initial_theta
@@ -52,6 +55,7 @@ class LogisticRegression:
 
         return self
 
+    # sigmod 得出的概率
     def predict_proba(self, X_predict):
         """给定待预测数据集X_predict，返回表示X_predict的结果概率向量"""
         assert self.intercept_ is not None and self.coef_ is not None, \
@@ -61,7 +65,7 @@ class LogisticRegression:
 
         X_b = np.hstack([np.ones((len(X_predict), 1)), X_predict])
         return self._sigmoid(X_b.dot(self._theta))
-
+    # 预测是0还是1 ，二分类
     def predict(self, X_predict):
         """给定待预测数据集X_predict，返回表示X_predict的结果向量"""
         assert self.intercept_ is not None and self.coef_ is not None, \
@@ -70,12 +74,14 @@ class LogisticRegression:
             "the feature number of X_predict must be equal to X_train"
 
         proba = self.predict_proba(X_predict)
+        # 这里先定死 0。5 就是1.
         return np.array(proba >= 0.5, dtype='int')
 
     def score(self, X_test, y_test):
         """根据测试数据集 X_test 和 y_test 确定当前模型的准确度"""
 
         y_predict = self.predict(X_test)
+        # 这里是 准确率
         return accuracy_score(y_test, y_predict)
 
     def __repr__(self):
