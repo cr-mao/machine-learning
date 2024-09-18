@@ -1,6 +1,8 @@
-# 我的ai相关学习笔记
+# machine learning
 
-- ai相关数学知识
+数据分析、挖掘， 机器学习等学习笔记
+
+- 数学基础
 - 数据分析与可视化
 - 机器学习
 - python
@@ -88,17 +90,25 @@ jupyter notebook ,numpy,pandas,matplotlib
     - [逻辑回归理论、公式](machinelearning/逻辑回归.md)
     - [sigmod函数](machinelearning/logisticRegression/01-WhatIsLogisticRegression/01-What-is-Logistic-Regression.ipynb)
     - [实现逻辑回归](machinelearning/logisticRegression/02-ImplementLogisticRegression/implementLogisticRegression.ipynb)
+    - [决策边界](machinelearning/logisticRegression/03-DecisionBoundary/Decision-Boundary.ipynb)
+    - [添加多项式](machinelearning/logisticRegression/04-PolynomialFeaturesInLogisticRegression/polynomialFeaturesInLogisticRegression.ipynb)
+    - [scikit-learn中的逻辑回归](machinelearning/logisticRegression/05-logisticRegressionInScikitLearn/logisticRegressionInScikitLearn.ipynb)
+    - [解决多分类问题](machinelearning/logisticRegression/06-OvrAndOvo/ovrAndOvo.ipynb)
+- 评价分类结果 
+  - [实现混淆矩阵，精准率和召回率](machinelearning/classificationPerformanceMeasures/01-implementConfusionMatrixPrecisionAndRecall/Implement-Confusion-Matrix-Precision-and-Recall.ipynb)
+  - [F1 score](machinelearning/classificationPerformanceMeasures/02-F1Score/F1Score.ipynb)
+  - [精准度和召回率的平衡](machinelearning/classificationPerformanceMeasures/03-PrecisionRecallTradeoff/precisionRecallTradeoff.ipynb)
 
+- k-means
+  - [k-means理论](machinelearning/Kmeans.md)
+  - [特征降维、kmeans实践](machinelearning/kmeans/kmeans.ipynb)
 - 朴素叶贝斯
-
-### 案例
-
-#### 推荐系统相关
-
-- [推荐系统快速入门](machinelearning/推荐系统入门.md)
-- [用户口味、余弦相似性](machinelearning/recommand/01consine_simiartiy/consine_similarty.ipynb)
-- [用户消费能力、标准化欧式距离](machinelearning/recommand/02distance/distance.ipynb)
-- [NearestNeighbors、余弦相似性找出最相似的用户](machinelearning/recommand/03NearestNeighborsAndConsineSimiarity/NearestNeighbors_and_consine_simiarity.ipynb)
+- 神经网络
+- 推荐系统相关
+  - [推荐系统快速入门](machinelearning/推荐系统入门.md)
+  - [用户口味、余弦相似性](machinelearning/recommand/01consine_simiartiy/consine_similarty.ipynb)
+  - [用户消费能力、标准化欧式距离](machinelearning/recommand/02distance/distance.ipynb)
+  - [NearestNeighbors、余弦相似性找出最相似的用户](machinelearning/recommand/03NearestNeighborsAndConsineSimiarity/NearestNeighbors_and_consine_simiarity.ipynb)
 
 ## links
 
