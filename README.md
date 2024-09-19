@@ -98,7 +98,9 @@ jupyter notebook ,numpy,pandas,matplotlib
   - [实现混淆矩阵，精准率和召回率](machinelearning/classificationPerformanceMeasures/01-implementConfusionMatrixPrecisionAndRecall/Implement-Confusion-Matrix-Precision-and-Recall.ipynb)
   - [F1 score](machinelearning/classificationPerformanceMeasures/02-F1Score/F1Score.ipynb)
   - [精准度和召回率的平衡](machinelearning/classificationPerformanceMeasures/03-PrecisionRecallTradeoff/precisionRecallTradeoff.ipynb)
-
+  - [精准度-召回率曲线](machinelearning/classificationPerformanceMeasures/04-precisionRecallCurve/precisionRecallCurve.ipynb)
+  - [ROC曲线与AUC指标](machinelearning/classificationPerformanceMeasures/05-rocCurve/rocCurve.ipynb)
+  - [多分类看预测结果](machinelearning/classificationPerformanceMeasures/06-confusionMatrixInMulticlassClassification/confusionMatrixInMulticlassClassification.ipynb)
 - k-means
   - [k-means理论](machinelearning/Kmeans.md)
   - [特征降维、kmeans实践](machinelearning/kmeans/kmeans.ipynb)
