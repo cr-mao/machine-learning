@@ -14,8 +14,8 @@ x = 4 + np.random.normal(0, 1.5, 200)
 # plot:
 
 fig, ax = plt.subplots()
-
-ax.hist(x, bins=8, linewidth=0.5, edgecolor="white")
+# bins 柱子数,  density = True 变成频率
+ax.hist(x, bins=8, linewidth=0.5, rwidth=0.8, edgecolor="white",density = False)
 
 ax.set(xlim=(0, 10), xticks=np.arange(1, 10),
        ylim=(0, 56), yticks=np.linspace(0, 56, 9))  # 9个，包含0，间隔为7，7×8=56，即[0,7,14,21,28,35,42,49,56]
